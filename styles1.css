@@ -1,0 +1,111 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+        font-family: "Dancing Script", cursive;
+        background-image: url(https://emprendedorestv.pe/wp-content/uploads/2018/04/porta-23.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    color: #333;
+    line-height: 2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #0967cc;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .cta {
+    background: #fff;
+    color: #0967cc;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #0967cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#funcionalidades, #beneficios, #testimonios, #planes {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features, .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature, .plan {
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+#planes .plan {
+    background: #f0f0f0;
+}
+
+.plan .btn {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px;
+    background: #0967cc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background: #0967cc;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}

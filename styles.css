@@ -1,0 +1,37 @@
+/* Estilos para las pestañas */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-button.active {
+    background-color: #0967cc;
+    color: white;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.card-header {
+    background-color: #eff6ff;
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+/* Estilos para los gráficos placeholder */
+.chart-placeholder {
+    background-color: #f3f4f6;
+    height: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
